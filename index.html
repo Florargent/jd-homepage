@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- CSP策略配置（只需简单添加以下代码即可实现） -->
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src 'self';
+                   script-src 'self';
+                   style-src 'self' 'unsafe-inline';
+                   img-src 'self' data:;">
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
@@ -32,7 +39,7 @@
             <div class="banner-slide">
                 <div class="slide">
                     <a href="javascript:">
-                        <img src="./image/银花1.png" alt="" class="img">
+                        <img src="./image/new/banner1.jpg" alt="" class="img">
                         </a>
                         <a href="javascript:" class="prev iconfont">&#xe61a</a>
                         <a href="javascript:" class="next iconfont">&#xe523</a>
