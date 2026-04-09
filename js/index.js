@@ -22,7 +22,7 @@ keyword.onblur = function(){
 
 let img = document.querySelector('.img')
 
-let imgArr = ['银花1.png','银花2.png','银花3.png','银花4.png']
+let imgArr = ['new/banner1.jpg','new/banner2.jpg','new/banner3.jpg','new/banner4.jpg']
 
 let next = document.querySelector('.next')
 
