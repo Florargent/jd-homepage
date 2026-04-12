@@ -120,13 +120,12 @@ cutImg();
 }
 
 // li摁扭点击
-for(let i =0;i<lis.length;i++)
-[
-    lis[i].onclick = function(){
+for(let i = 0; i < lis.length; i++) {
+    lis[i].onclick = function() {
         count = i;
         cutImg();
     }
-]
+}
 
 // 滚动条
 let header = document.querySelector('.header')
