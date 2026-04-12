@@ -2,8 +2,8 @@
 
 基于现代 HTML5 + CSS3 + 原生 JavaScript 独立实现的京东首页核心交互模块，重点还原并优化了头部导航、搜索推荐、轮播图、电梯导航等高频交互场景，适配多端响应式布局。
 
-**在线体验**：https://floraragent.github.io/jd-homepage/
-
+**在线体验**：https://florargent.github.io/jd-homepage/
+              
 ## 技术栈
 - HTML5 + CSS3（Flex、Grid、定位、z-index、CSS模块化）
 - 原生 JavaScript（ES6+）
